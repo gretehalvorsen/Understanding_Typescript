@@ -1,6 +1,6 @@
 import { Component } from "./base-component";
 import * as Validation from "../util/validation";
-import { autobind } from "../decorators/autobind";
+import { autobind } from "../decoraters/autobind";
 import { projectState } from "../state/project-state";
 
 // ProjectInput Class

@@ -1,7 +1,7 @@
 import { DragTarget } from "../models/drag-drop";
 import { Component } from "./base-component";
 import { Project, ProjectStatus } from "../models/project";
-import { autobind } from "../decorators/autobind";
+import { autobind } from "../decoraters/autobind";
 import { ProjectItem } from "./project-item";
 import { projectState } from "../state/project-state";
 
